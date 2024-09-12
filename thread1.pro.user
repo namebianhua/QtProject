@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.8.2, 2024-08-19T09:24:52. -->
+<!-- Written by QtCreator 4.8.2, 2024-09-11T18:20:56. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -268,10 +268,10 @@
     <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
     <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
     <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
-    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
-    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
-    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
-    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">true</value>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
     <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
     <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
@@ -304,8 +304,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">thread1</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/pratice/thread1/thread1.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">thread12</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/pratice/thread1/QtProject/thread1.pro</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">thread1.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>

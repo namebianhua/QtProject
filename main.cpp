@@ -11,6 +11,10 @@
 #include <QSemaphore>
 #include <chrono>
 #include <unordered_map>
+#include <unordered_set>
+#include <set>
+#include <vector>
+#include <algorithm>
 
 struct MyTimer
 {
@@ -30,6 +34,50 @@ int semap();
 int fbi(int f);
 int fact(int n);
 int sumFact(int i);
+int lengthOfsubstring( std::string s)
+{
+    std::unordered_set<char> set;
+    int res = 0;
+    
+}
+
+double findmidle(std::vector<int>& nums1, std::vector<int>& nums2)
+{
+    std::vector<std::vector<int>> vect;
+    nums1.insert(nums1.end(), nums2.begin(), nums2.end());
+    std::sort(nums1.begin(), nums1.end());
+//    size_t l = sizeof (nums1)/sizeof (nums1[0]);//sizeof()是在编译时执行的，动态数组无法使用，动态数组的大小在运行时不是由编译器管理的
+    size_t l = nums1.size();
+    std::cout << "l: " << l << std::endl;
+    double mid = 0.0;
+    if(l%2 == 0)
+        mid = static_cast<double>(nums1[l / 2] + nums1[l / 2 - 1]) / 2;
+    else {
+        mid = static_cast<double>(nums1[l / 2]);
+    }
+    for (auto num1 : nums1) {
+        std::cout << "num1: " << num1 << std::endl;
+    }
+    return mid;
+}
+
+//滑动窗口实现、
+/**
+void moveWindow ()
+{
+    //外层循环扩展右边界，内层循环扩展左边界
+    for (int l = 0, r = 0 ; r < n ; r++) {
+    //当前考虑的元素
+    while (l <= r && check()) {//区间[left,right]不符合题意
+        //扩展左边界
+        }
+    //区间[left,right]符合题意，统计相关信息
+    }
+}
+*/
+
+
+
 
 int main(int argc, char *argv[])
 {
@@ -37,6 +85,10 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
 
+    std::vector<int> vec1 = {1, 3, 5, 7};
+    std::vector<int> vec2 = {2, 4, 6};
+
+    findmidle(vec1, vec2);
     Cal& cal1 = Cal::getinstance();
     Cal& cal2 = Cal::getinstance();
     Dev* dev1 = new Dev();
